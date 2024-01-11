@@ -4,19 +4,19 @@ diplomacy = {
 # Declare War
 	0
 # Offer Alliance
-	100
+	50
 # Bring to Alliance
-	100
+	50
 # Join Alliance
-	30
+	5
 # Leave Alliance
-	150
+	400
 # Ban from Alliance
-	150
+	0
 # Influence Nation
 	100
 # Coup Nation
-	1000
+	333
 # Ask for Military Access
 	150
 # Cancel Military Access
@@ -36,23 +36,23 @@ diplomacy = {
 # Puppet Regime
 	0
 # Demand Territory
-	100
+	2000
 # Open Negotiations
-	30
+	0
 # Offer Non-Aggression Pact
-	100
+	10
 # Cancel Non-Aggression Pact
-	100
+	1000
 # Offer Trade Agreement
 	0
 # Cancel Trade Agreement
-	10
+	0
 # Cancel Peace Treaty
-	100
+	0
 # Sue for Peace
 	0
 # Release Puppet
-	20
+	0
 # Liberate Nation
 	0
 # Do not send expeditionary forces

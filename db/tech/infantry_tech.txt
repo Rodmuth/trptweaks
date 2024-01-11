@@ -114,13 +114,13 @@ technology =
 	  #command = { trigger = { NOT = { local_flag = activation_militia } } type = deactivate_unit_type which = militia }
     }
   }
-  # Basic Infantry Division 1939
+  # Basic Infantry Division 1939(38)
   application =
   { id        = 1030
     name      = TECH_APP_INFANTRY_3_NAME
     desc      = TECH_APP_INFANTRY_3_DESC
     position  = { x = 140 y = 60 }
-    year      = 1939
+    year      = 1938 #compete with cavalry
     # Basic Submachinegun
     component = { id = 1031 name = TECH_CMP_INFANTRY_3_1_NAME type = general_equipment difficulty = 5 }
     # Infantry Gun 75mm

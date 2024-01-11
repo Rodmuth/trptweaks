@@ -161,7 +161,7 @@ technology =
 	  command = { type = scrap_model which = interceptor value = 0 }
     }
   }
-  # Multirole Fighter 1937
+  # Multirole Fighter 1935
   application =
   { id        = 4070
     name      = TECH_APP_AIRCRAFT_7_NAME
@@ -250,13 +250,13 @@ technology =
       command = { type = scrap_model which = interceptor value = 1 }
     }
   }
-  # Multi_role 1940
+  # Multi_role 1940 (1938)
   application =
   { id        = 4110
     name      = TECH_APP_AIRCRAFT_11_NAME
     desc      = TECH_APP_AIRCRAFT_11_DESC
     position  = { x = 112 y = 161 }
-    year      = 1940
+    year      = 1938
     # Fighter Engine
     # Multi_Role Airframe
     # Ammuniation

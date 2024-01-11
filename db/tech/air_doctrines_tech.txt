@@ -83,13 +83,13 @@ technology =
 ###############################
 # Air Superiority Defensive
 ###############################
-  # Air Superiority Defensive 1937
+  # Air Superiority Defensive 1937 (39, to compete with itself)
   application =
   { id        = 9040 #9600
     name      = TECH_APP_AD_4_NAME
     desc      = TECH_APP_AD_4_DESC
     position  = { x = 445 y = 244 }
-    year      = 1937
+    year      = 1939
     component = { id = 9041 name = TECH_CMP_AD_4_1_NAME type = centralized_execution difficulty = 2 }
     component = { id = 9042 name = TECH_CMP_AD_4_2_NAME type = rt_user_6 difficulty = 2 } #double_time = yes }
     component = { id = 9043 name = TECH_CMP_AD_4_3_NAME type = rt_user_6 difficulty = 2 } #double_time = yes }

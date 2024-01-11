@@ -4,7 +4,7 @@
 
 transports = {
 	cost		= 2.35
-	buildtime 	= 150
+	buildtime 	= 200 #Raised from 150 to make it more expensive and harder to gear as above says they are discounted 90% already
 	manpower	= 0.045
 	size		= 10
 }
@@ -13,7 +13,7 @@ transports = {
 # assumed tonnage: 900to per ship
 
 escorts = {
-	cost		= 1.65
+	cost		= 2#1.65
 	buildtime 	= 270
 	manpower	= 0.85
 	size		= 10

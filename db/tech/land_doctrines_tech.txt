@@ -259,7 +259,7 @@ command = { type = morale which = sp_artillery value = 1 } command = { type = mo
 
 		position = { x = 60 y = 85 }
 		required = { 6060 6050 }
-		year = 1942
+		year = 1941#42
 
 		# Tactical unit - Platoon
 		# Organic battalion firesupport
@@ -643,7 +643,7 @@ command = { type = desert_attack which = infantry value = 4.5 }	command = { type
 
 		position = { x = 275 y = 85 }
 		required = { 6130 }
-		year = 1942
+		year = 1941 #42
 
 		# Artillery divisions
 		# Multiple attack directions
@@ -684,7 +684,7 @@ command = { type = forest_attack which = infantry value = 5 }	command = { type =
 
 		position = { x = 390 y = 105 }
 		required = { 6150 }
-		year = 1942
+		year = 1942	#1941
 
 		# Night Attacks
 		# Dispersed Combat Elements
@@ -726,7 +726,7 @@ command = { type = urban_attack which = infantry value = 3.5 }	command = { type 
 
 		position = { x = 390 y = 120 }
 		required = { 6150 }
-		year = 1942
+		year = 1941
 
 		# Field fortification emphasis
 		# Operational reserves
@@ -772,7 +772,7 @@ command = { type = hill_attack which = infantry value = 5 }	command = { type = h
 
 		position = { x = 390 y = 135 }
 		required = { 6150 }
-		year = 1942
+		year = 1941
 
 		# Dedicated artillery
 		# Dedicated airsupport
@@ -1722,7 +1722,7 @@ command = { type = mountain_attack which = infantry value = 3.5 }	command = { ty
 
 		position = { x = 330 y = 400 }
 		required = { 6450 }
-		year = 1942
+		year = 1941
 
 		# Operational deception 
 		# Maskirovka 
@@ -2972,7 +2972,7 @@ command = { type = morale which = sp_artillery value = 1 } command = { type = mo
     name      = TECH_APP_ARMOR_4_NAME
     desc      = TECH_APP_ARMOR_4_DESC
     position  = { x = 568 y = 66 }
-    year      = 1942
+    year      = 1941
     # Infantry-Tank Combined Combat Theory
     component = { id = 2041 name = TECH_CMP_ARMOR_4_1_NAME type = combined_arms_focus difficulty = 4 }
     # Maneuver Discipline
