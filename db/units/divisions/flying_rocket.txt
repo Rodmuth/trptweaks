@@ -2,7 +2,7 @@
 # building costs increase at 4% per year
 
 model = { #Model 0#Flying Rocket V2A5 -1944-
-	cost 						= 12.47
+	cost 						= 6
 	buildtime					= 40
 	defaultorganisation 		= 100
 	morale						= 100
@@ -23,7 +23,7 @@ model = { #Model 0#Flying Rocket V2A5 -1944-
 	equipment 	= { rocket = 50 }
 }
 model = { #Model 1#Ballistic Missile V2A9 -1948-
-	cost 						= 9.72
+	cost 						= 4
 	buildtime					= 60
 	defaultorganisation 		= 100
 	morale						= 100
@@ -44,18 +44,18 @@ model = { #Model 1#Ballistic Missile V2A9 -1948-
 	equipment 	= { rocket = 50 }
 }
 model = { #Model 2#Inter Continental Ballistic Missile V2A10 -1951-
-	cost 						= 7.29
+	cost 						= 5
 	buildtime					= 90
 	defaultorganisation 		= 100
 	morale						= 100
 	manpower					= 0
-	maxspeed					= 8000
+	maxspeed					= 9000
 	surfacedefence				= 100
 	airdefence					= 100
 	strategicattack				= 11
 	softattack					= 0
 	hardattack					= 0
-	range						= 8000
+	range						= 9000
 	supplyconsumption 			= 0.73
 	fuelconsumption				= 5
 	reinforce_time = 0.5

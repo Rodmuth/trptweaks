@@ -9,10 +9,10 @@
 #allowed_brigades =  light_armor_brigade																																						
 #allowed_brigades =  heavy_armor																																						
 #allowed_brigades =  super_heavy_armor																																						
-allowed_brigades =  armored_car																																						
-allowed_brigades =  engineer																																						
-#allowed_brigades =  police																																						
-allowed_brigades =  sp_anti_air	
+#allowed_brigades =  armored_car																																						
+#allowed_brigades =  engineer																																						
+allowed_brigades =  police																																						
+#allowed_brigades =  sp_anti_air	
 #allowed_brigades =  b_01																																					
 																																						
 # Basic HQ Division (1918) - 0																																						
@@ -27,7 +27,7 @@ model = {
 	toughness =				15																																	
 	softness =				100																																	
 	suppression =				1																																	
-	airdefence =				4																																	
+	airdefence =				8, #4, no brigades																																	
 	softattack =				1																																	
 	hardattack =				0																																	
 	airattack =				1																																	
@@ -36,13 +36,13 @@ model = {
 	fuelconsumption =				0																																	
 	reinforce_time =				0.5																																	
 	reinforce_cost =				1.4																																	
-	#upgrade_time_factor =				0.6																																	
-	#upgrade_cost_factor =				0																																	
+	upgrade_time_factor =				5.0#test																														
+	upgrade_cost_factor =				5.0																																	
 	equipment =				{ manpower = 3000 equipment = 50   anti_air = 4  horses = 500 trucks = 300                balloon = 10             }																																	
 }																																						
 # Improved HQ Division (1939) #Motorized/Mechanized - 1																																						
 model = {																																						
-	cost =				19.01																																	
+	cost =				10																																	
 	buildtime =			 	240																																	
 	manpower =				3																																	
 	maxspeed =				11																																	
@@ -67,7 +67,7 @@ model = {
 }																																						
 # Advanced HQ Division (1944) #Armoured/Mechanized - 2																																						
 model = {																																						
-	cost =				22.04																																	
+	cost =				10																																	
 	buildtime =			 	240																																	
 	manpower =				3																																	
 	maxspeed =				13																																	
@@ -92,7 +92,7 @@ model = {
 }																																						
 # Semimodern HQ Division (1951) #Armoured/Mechanized - 3																																						
 model = {																																						
-	cost =				26.06																																	
+	cost =				10																																	
 	buildtime =			 	240																																	
 	manpower =				3																																	
 	maxspeed =				13																																	
